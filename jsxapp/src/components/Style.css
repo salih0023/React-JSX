@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background:rgba(67, 239, 255, 0.5);
+    gap: 20px;
+    font-size: 10px;
+    font-family: Poppins;
+}
+.messsage {
+    position: absolute;
+    margin-top: auto;
+}
+

@@ -1,14 +1,21 @@
-import React from 'react';
-import Products from './Products';
-
+import React from "react";
+import Name from "./components/Name";
+import Price from "./components/Price";
+import Description from "./components/Description";
+import Image from "./components/Image";
+import "./components/Style.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>hello react </h1>
-      <Products nama={"ballo"} price={25} description={"Grosse balle à jouer, le plus souvent ronde, généralement formée d'une vessie gonflée d'air et recouverte d'une peau cousue, utilisée dans les sports d'équipe comme le football, le rugby, le basket-ball, le handball, le volley-ball."} img={"https://unsplash.com/fr/photos/LTyPTQ2tgNA"} />
+    <div className="app">
+      <Name />
+      <Price />
+      <Description />
+      <Image />
+      <h1 className="message">Hello Saliou ! </h1>
     </div>
   );
 }
+
 
 export default App;
