@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 200;
 }
 .app {
     display: flex;
@@ -12,10 +14,14 @@
     background:rgba(67, 239, 255, 0.5);
     gap: 20px;
     font-size: 10px;
-    font-family: Poppins;
-}
-.messsage {
-    position: absolute;
-    margin-top: auto;
+
 }
 
+.message {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background: black;
+    border-radius: 10px;
+}
